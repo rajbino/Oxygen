@@ -19,12 +19,15 @@ public class Factorial {
 	 * 
 	 */	
 	
+	
+	
+	
 	public static void main(String[] args) {
 
 		// Declare your input number
 		
-		int n=6;
-		int z=1;
+		int input=6;
+		int fact=1;
 		
 		
 		
@@ -33,9 +36,9 @@ public class Factorial {
 
 		// Iterate from 1 to your input (tip: using loop concept)
 		
-		for (int i=1; i<=n; i++)
+		for (int i=1; i<=input; i++)
 		{
-			z= z * i;
+			fact = fact * i;
 		}
 		
 
@@ -47,7 +50,7 @@ public class Factorial {
 
 		// Print factorial (fact)
 		
-		System.out.println(z);
+		System.out.println(fact);
 	
 	}
 

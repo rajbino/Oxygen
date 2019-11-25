@@ -21,6 +21,7 @@ public class OddNumbers {
 	 * 
 	 */
 
+	
 	public static void main(String[] args) {
 		
 		System.out.println("Printing only the odd numbers from 1 to 20");
